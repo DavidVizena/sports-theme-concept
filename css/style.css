@@ -28,3 +28,47 @@ html, body {
     height: 80px;
     position: absolute;
 }
+
+.logo {
+    font-size: 18px;
+    margin: 0.2em 2em;
+    line-height: 80px;
+    position: absolute;
+}
+
+.menu {
+    position: absolute;
+    height: 80px;
+    right: 120px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 1em 0;
+    padding: 0 30px;
+    font-size: 15px;
+}
+
+.cart {
+    position: fixed;
+    font-size: 15px;
+    margin: .2em 1em;
+    line-height: 80px;
+    right: 20px;
+}
+
+.box-1 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: none;
+    border: 2px solid orange;
+    top: 10%;
+    left: 15%;
+    z-index: -1;
+    transform: rotate(60deg);
+}
